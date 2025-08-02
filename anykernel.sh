@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=DVG Kernel by @daglaroglou
+kernel.string=DΛG Kernel by @daglaroglou
 do.devicecheck=0
 do.modules=0
 do.systemless=0

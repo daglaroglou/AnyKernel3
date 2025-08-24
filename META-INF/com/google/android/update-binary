@@ -544,8 +544,19 @@ if [ -f banner ]; then
   ui_print " " " ";
 fi;
 
+# art
+ui_print "______  ___  _____   _   __                     _ "
+ui_print "|  _  \\/ _ \\|  __ \\ | | / /                    | |"
+ui_print "| | | / / \\ \\ |  \\/ | |/ /  ___ _ __ _ __   ___| |"
+ui_print "| | | | | | | | __  |    \\ / _ \\ '__| '_ \\ / _ \\ |"
+ui_print "| |/ /| | | | |_\\ \\ | |\\  \\  __/ |  | | | |  __/ |"
+ui_print "|___/ \\_| |_/\\____/ \\_| \\_/\\___|_|  |_| |_|\\___|_|"
+ui_print "github.com/daglaroglou || t.me/daglaroglou";
+ui_print " ";
+
 KERNEL_STRING="$(file_getprop anykernel.sh kernel.string)";
 ui_print "$KERNEL_STRING";
+
 if [ -f version ]; then
   ui_print " ";
   ui_printfile version;
